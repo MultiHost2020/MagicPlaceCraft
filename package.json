@@ -1,0 +1,23 @@
+{
+  "name": "dcbotmpc",
+  "version": "1.0.0",
+  "description": "De bot voor de magicplacecraft server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "keywords": [
+    "Bot",
+    "MagicPlaceCraft",
+    "Discord"
+  ],
+  "author": "Wonderlandmc",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
