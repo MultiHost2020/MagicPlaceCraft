@@ -32,7 +32,7 @@ client.on("ready", async () => {
 
   console.log(`${client.user.username} is online.`);
 
-  client.user.setActivity("Gebruik de commands niet!", { type: "PLAYING" });
+  client.user.setActivity("op Magicplacecraft", { type: "PLAYING" });
 
 });
 
