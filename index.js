@@ -79,7 +79,31 @@ client.on("guildMemberAdd", member => {
 
   if (!channel) return;
 
-  channel.send(`Hallo en welkom ${member}! Lees eerst de regels met !regels`)
+  channel.send(`Hallo en welkom ${member}! Lees eerst de regels met !regels`);
+
+  if (command === `${prefix}kick`) {
+
+    // !kick @spelerNaam Reden
+
+    var args = message.content.slice(prefix.length).split(/ +/);
+
+    if(!message.member.hasPermission("KICK_MEMBERS")) return message.reply("Sorry, je hebt geen toestemming om dit commando te gebruiken!");
+
+    if(!message.guild.me.hasPermission("KICK_MEMBERS")) return message.reply("Geen Perms");
+
+    if(!args[1]) return message.reply("Error! No User Given!");
+
+    if(!args[2]) return message.reply("Error! No Reason Given!");
+
+    var kickUser = message.guild.member( message.mentions.users.first() || message.guild.members.get(args[1]));
+
+    var Reason = args.slice(2).join(" ");
+
+    if(!kickUser) return message.reply("User Not Found!");
+
+    
+
+  }
 
 
 })
