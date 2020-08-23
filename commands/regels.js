@@ -10,7 +10,7 @@ module.exports.run = async(bot, message, args) => {
     .addField("Geen racisme", "Discord en minecraft")
     .addField("Spreek geen staff tegen", "Discord en minecraft")
     .addField("Niet schelden", "Discord en minecraft")
-    .addField("Ga niet van de paden af", "Discord en minecraft")
+    .addField("Ga niet van de paden af", "minecraft")
     .addField("Niet Ticket spammen", "Discord")
     .addField("Laat de bot niet crashen", "Discord")
 
