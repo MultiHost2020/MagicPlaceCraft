@@ -10,7 +10,6 @@ module.exports.run = async(bot, message, args) => {
     .addField("!ip", "Laat de ip van de server zien")
     .addField("!minecraft", "Laat alle informatie over de minecraft server zien")
     .addField("!regels", "Laat de regels van de server zien")
-    .setFooter("Bot by Multi Host")
 
 return message.channel.send(botEmbed);
 

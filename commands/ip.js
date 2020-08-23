@@ -7,7 +7,6 @@ module.exports.run = async(bot, message, args) => {
     .setDescription("Laat het ip van de server zien")
     .setColor("#14fc03")
     .addField("Het ip is nog niet klaar", "**ip**")
-    .setFooter("Bot by Multi Host")
 
 return message.channel.send(botEmbed);
 

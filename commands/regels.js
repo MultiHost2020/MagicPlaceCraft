@@ -13,7 +13,6 @@ module.exports.run = async(bot, message, args) => {
     .addField("Ga niet van de paden af", "Discord en minecraft")
     .addField("Niet Ticket spammen", "Discord")
     .addField("Laat de bot niet crashen", "Discord")
-    .setFooter("Bot by Multi Host")
 
 return message.channel.send(botEmbed);
 

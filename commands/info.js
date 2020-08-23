@@ -10,7 +10,6 @@ module.exports.run = async(bot, message, args) => {
     .addField("Openingsdatum", "Nog niet bekend")
     .addField("Ip", "Nog niet klaar")
     .addField("Status", "In Aanbouw")
-    .setFooter("Bot by Multi Host")
 
 return message.channel.send(botEmbed);
 

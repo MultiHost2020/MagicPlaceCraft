@@ -10,7 +10,6 @@ module.exports.run = async(bot, message, args) => {
     .addField("Ip", "!ip")
     .addField("Versie", "1.15.2")
     .addField("Regels", "!regels")
-    .setFooter("Bot by Multi Host")
 
 return message.channel.send(botEmbed);
 
